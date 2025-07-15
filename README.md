@@ -39,7 +39,7 @@ Welcome to my **Projects Showcase Repo** — a curated collection of interactive
 | 15 | 🚀 **Next Gen Portfolio**    | A modern and clean portfolio showcase      | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/15_Test_Portfolio/) |
 | 16 | 🎉 **New Year Work**         | A festive and modern New Year-themed project| [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/16_NewYear_Work/) |
 | 17 | 🚀 **LaunchingPad Web**      | A clean and professional product launch layout | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/17_LaunchingPad_web/) |
-| 18 | 🛒 **Panda Online Shop**     | A colorful and responsive shopping UI     | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/18_Panda_OnlineShop_Website/) |
+
 
 
 
