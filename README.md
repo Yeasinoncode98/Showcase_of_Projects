@@ -20,25 +20,25 @@ Welcome to my **Projects Showcase Repo** — a curated collection of interactive
 
 <div align="center">
 
-| #  | 🔥 Project Name              | 🚀 Description                            | 🎬 Demo Link                                                                 |
-|----|-----------------------------|-------------------------------------------|------------------------------------------------------------------------------|
-| 1  | 🔐 **Login Page**            | Simple & Stylish Login Interface          | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Projects-Showcase/01_Login_Page/) |
-| 2  | 💼 **Business Card**         | Digital Business Card Design              | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Projects-Showcase/02_Business_Card/) |
-| 3  | 🎬 **Animated Login Page**   | Smooth Animated Login UI                  | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Projects-Showcase/03_Animated_LoginPage/) |
-| 4  | 💳 **Credit Card UI**        | Interactive Credit Card Design            | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Projects-Showcase/04_Credit_Card/) |
-| 5  | 🧊 **Glassmorphism Login**   | Modern Glassmorphism Login Form           | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Projects-Showcase/05_Modern_Glassmorphism_Login_Form/) |
-| 6  | 🌍 **Landing Page**          | Responsive Stylish Landing Page           | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Projects-Showcase/06_Landing_Page_/) |
-| 7  | 🧃 **Juice Card**            | Juice Product Landing Card                | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Projects-Showcase/07_Juice_Card_Landing_Page/) |
-| 8  | ⏰ **Animated Clock**        | CSS Animated Clock                        | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Projects-Showcase/08_Animated_Clock/) |
-| 9  | 💡 **Glowing Buttons**       | Hover-Glowing Button Effects              | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Projects-Showcase/09_Glowing_Buttons/) |
-| 10 | 🍽️ **Responsive Nav Menu**   | Modern Responsive Navigation Menu         | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Projects-Showcase/10_Menu_NavBar_/) |
-| 11 | 🏆 **Sliding Menu**          | Interactive Sliding Sidebar Menu          | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Projects-Showcase/11_Sliding_Menu/) |
-| 12 | 🌍 **Website Test**          | Clean and responsive simple website design| [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Projects-Showcase/12_Website_Test/) |
-| 13 | 🛠️ **Admin Panel Redwine**   | Redwine Admin Dashboard with clean UI     | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Projects-Showcase/13_Admin_Panel_Redwine/) |
-| 14 | 👨‍💻 **Intro Card Team**       | Developer Team Introduction Cards         | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Projects-Showcase/14_Intro_Card_Team/) |
-| 15 | 🚀 **Next Gen Portfolio**    | A modern and clean portfolio showcase     | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Projects-Showcase/15_Test_Portfolio/) |
-| 16 | 🎉 **New Year Work**         | A festive and modern New Year-themed project | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Projects-Showcase/16_NewYear_Work/) |
-| 17 | 🚀 **LaunchingPad Web**      | A clean and professional product launch layout | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Projects-Showcase/17_LaunchingPad_web/) |
+| #  | 🔥 Project Name              | 🚀 Description                            | 🎬 Repo Link                                                                 |
+|----|-----------------------------|------------------------------------------|------------------------------------------------------------------------------|
+| 1  | 🔐 **Login Page**            | Simple & Stylish Login Interface         | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://github.com/Yeasinoncode98/Showcase_of_Projects/tree/main/01_Login_Page) |
+| 2  | 💼 **Business Card**         | Digital Business Card Design             | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://github.com/Yeasinoncode98/Showcase_of_Projects/tree/main/02_Business_Card) |
+| 3  | 🎬 **Animated Login Page**   | Smooth Animated Login UI                  | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://github.com/Yeasinoncode98/Showcase_of_Projects/tree/main/03_Animated_LoginPage) |
+| 4  | 💳 **Credit Card UI**        | Interactive Credit Card Design            | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://github.com/Yeasinoncode98/Showcase_of_Projects/tree/main/04_Credit_Card) |
+| 5  | 🧊 **Glassmorphism Login**   | Modern Glassmorphism Login Form           | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://github.com/Yeasinoncode98/Showcase_of_Projects/tree/main/05_Modern_Glassmorphism_Login_Form) |
+| 6  | 🌍 **Landing Page**          | Responsive Stylish Landing Page           | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://github.com/Yeasinoncode98/Showcase_of_Projects/tree/main/06_Landing_Page_) |
+| 7  | 🧃 **Juice Card**            | Juice Product Landing Card                 | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://github.com/Yeasinoncode98/Showcase_of_Projects/tree/main/07_Juice_Card_Landing_Page) |
+| 8  | ⏰ **Animated Clock**        | CSS Animated Clock                         | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://github.com/Yeasinoncode98/Showcase_of_Projects/tree/main/08_Animated_Clock) |
+| 9  | 💡 **Glowing Buttons**       | Hover-Glowing Button Effects               | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://github.com/Yeasinoncode98/Showcase_of_Projects/tree/main/09_Glowing_Buttons) |
+| 10 | 🍽️ **Responsive Nav Menu**   | Modern Responsive Navigation Menu          | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://github.com/Yeasinoncode98/Showcase_of_Projects/tree/main/10_Menu_NavBar_) |
+| 11 | 🏆 **Sliding Menu**          | Interactive Sliding Sidebar Menu           | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://github.com/Yeasinoncode98/Showcase_of_Projects/tree/main/11_Sliding_Menu) |
+| 12 | 🌍 **Website Test**          | Clean and responsive simple website design| [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://github.com/Yeasinoncode98/Showcase_of_Projects/tree/main/12_Website_Test) |
+| 13 | 🛠️ **Admin Panel Redwine**   | Redwine Admin Dashboard with clean UI      | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://github.com/Yeasinoncode98/Showcase_of_Projects/tree/main/13_Admin_Panel_Redwine) |
+| 14 | 👨‍💻 **Intro Card Team**       | Developer Team Introduction Cards          | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://github.com/Yeasinoncode98/Showcase_of_Projects/tree/main/14_Intro_Card_Team) |
+| 15 | 🚀 **Next Gen Portfolio**    | A modern and clean portfolio showcase      | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://github.com/Yeasinoncode98/Showcase_of_Projects/tree/main/15_Test_Portfolio) |
+| 16 | 🎉 **New Year Work**         | A festive and modern New Year-themed project| [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://github.com/Yeasinoncode98/Showcase_of_Projects/tree/main/16_NewYear_Work) |
+| 17 | 🚀 **LaunchingPad Web**      | A clean and professional product launch layout | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://github.com/Yeasinoncode98/Showcase_of_Projects/tree/main/17_LaunchingPad_web) |
 
 
 
