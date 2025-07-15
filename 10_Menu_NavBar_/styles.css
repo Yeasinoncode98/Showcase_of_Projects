@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SF Pro Text", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(0, 0%, 8%);
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    list-style: none;
+
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 0.5rem;
+    position: relative;
+
+}
+
+.link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: red;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all 0.6s ease;
+    bottom: 0;
+    left: 0;
+}
+
+
+.link:hover::before {
+    transform: scaleX(1);
+}
+
+#hire-me {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    color: black;
+    border-radius: 10px;
+    padding: 0.2rem 0.5rem;
+    transition: all 0.6s ease;
+}
+
+#hire-me:hover {
+
+    background-color: transparent;
+    color: #fff;
+    padding: 0.5rem;
+
+}
+
+#hire-me i {
+    margin-right: 0.5rem;
+}
+
+.logo {
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    padding: 0.5rem;
+    position: relative;
+    transition: 0.35s ease;
+}
+
+.logo:hover {
+    opacity: 0.5;
+}

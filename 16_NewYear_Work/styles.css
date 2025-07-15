@@ -1,0 +1,637 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: #f4f4f4;
+}
+
+header {
+    margin: 50px auto;
+    max-width: 90%;
+}
+
+.banner {
+    position: relative;
+    background-image: url('./images/Banner\ Image.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    height: 600px;
+    width: 1300px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+
+}
+
+.banner-content {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+    padding: 100px;
+}
+
+.banner-content .greeting {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.banner-content .title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+/* Secction for off */
+
+.off {
+    font-weight: bold;
+    font-size: 88px;
+    text-align: center;
+    color: red;
+}
+
+.holiday {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500px;
+    margin: 0 auto;
+    color: #FF0000;
+    margin-top: 48px;
+}
+
+.cata {
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.newyear-1 {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+/*Midnight party section */
+.midnight-party {
+    position: relative;
+    background-image: url('images/Vectorrr.png');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    border-radius: 16px;
+    margin: 80px auto;
+    max-width: 1320px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+
+.midnight-party::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.party-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 30px;
+    max-width: 800px;
+    overflow: visible;
+
+}
+
+.party-heading {
+    font-family: 'Merriweather',
+        serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 88px;
+    margin-bottom: 50px;
+    line-height: 88px;
+    letter-spacing: 7px;
+}
+
+.party-description {
+
+    padding-left: 80px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+}
+
+.join-now {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 20%;
+    font-family: 'Inter', sans-serif;
+}
+
+.party-img {
+    margin: 68px 108px 68px 0px;
+    margin-left: 200px;
+}
+
+/*Details Section */
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1320px;
+    height: 482px;
+    background-color: #fff0f0;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+.info {
+    font-family: 'Inter',
+        sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.place {
+    color: #070211;
+
+    text-align: center;
+}
+
+.date {
+    color: #070211;
+
+    text-align: center;
+}
+
+.time {
+    color: #070211;
+
+    text-align: right;
+    letter-spacing: 2px;
+}
+
+.label {
+    color: red;
+    font-weight: bold;
+}
+
+.join-btn {
+    color: white;
+    background-color: #FF0000;
+    padding: 12px 32px;
+    border-radius: 10px;
+    margin-top: 48px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*offer section */
+
+.best-offer {
+    display: flex;
+    max-width: 1320px;
+    height: 463px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 90px auto 100px auto;
+
+
+}
+
+.best p:first-of-type {
+    color: red;
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+.best h2 {
+    font-size: 48px;
+    color: #070211;
+    margin-top: 16px;
+}
+
+.best p:nth-of-type(2) {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 22px;
+    color: #070211;
+
+
+}
+
+.newyear2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* center content horizontally */
+    justify-content: center;
+}
+
+.newyear2 img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    /* optional: space from text */
+}
+
+.newyear2 h2 {
+    color: red;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.pic {
+    flex: 0 0 auto;
+}
+
+.circle-frame {
+    width: 300px;
+    height: 300px;
+    border: 8px solid #FF0000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transform: translateX(20px);
+    margin-left: 120px;
+
+
+}
+
+.circle-frame img {
+    width: 250px;
+    height: 250px;
+}
+
+/*Holiday Sale section */
+
+.holiday-sale {
+
+    padding-top: 60px;
+    position: relative;
+    margin-top: -150px;
+    margin-bottom: 500px;
+}
+
+.banner2 {
+    text-align: center;
+    position: relative;
+    padding: 30px 20px 150px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.top-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 72px;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+.description1 {
+    color: #070211;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 15px auto 30px;
+    line-height: 1.5;
+}
+
+.main-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: -100px;
+    z-index: 2;
+}
+
+.gift-img {
+
+    width: 674px;
+    height: auto;
+    display: block;
+}
+
+.discount-img {
+    position: static;
+    width: 200px;
+    margin-left: 80px;
+
+
+}
+
+.red-bar {
+    position: relative;
+    width: 1320px;
+    height: auto;
+    z-index: 1;
+    margin-top: -50px;
+    margin-left: -160px;
+
+}
+
+/* Product Section */
+
+.product-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-top: -500px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+
+}
+
+.product-container .card {
+    width: 30%;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.product-section p {
+    color: #D72638;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.product-section h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 44px;
+    margin-top: 20px;
+}
+
+.details {
+    color: black;
+}
+
+.card {
+    margin-top: 48px;
+}
+
+/* Sub Section*/
+
+.sub-container {
+    background: #fff0f0;
+    width: 1320px;
+    height: 616px;
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+.sub {
+    text-align: center;
+    max-width: 600px;
+    padding: 40px;
+}
+
+.msg-img img {
+    margin-bottom: 20px;
+}
+
+.sub h2 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.sub p {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 22px;
+    line-height: 32px;
+}
+
+.sub-form {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: white;
+    margin: 48px auto 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sub-form input[type="email"] {
+    flex: 1;
+    border: none;
+    padding: 20px 25px;
+    font-size: 16px;
+    outline: none;
+    background-color: transparent;
+    border-radius: 50px 0 0 50px;
+    min-width: 0;
+}
+
+.sub-form button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 50px 50px 0;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+}
+
+.sub-form button:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+/*Footer section */
+
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    width: 1320px;
+    height: 609px;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 16px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    /* pushes left & right apart */
+    align-items: flex-start;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-left,
+.footer-right {
+    max-width: 45%;
+    flex: 1;
+}
+
+
+
+.footer-left p,
+.footer-right p {
+    margin: 5px 0;
+    display: flex;
+}
+
+.icon {
+    width: 19px;
+    height: 19px;
+    margin-right: 8px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #444;
+    margin: 20px 0;
+
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: -70px;
+}
+
+.social-icons a img {
+
+    margin: 20px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.unsubscribe {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-line-top {
+    height: 2px;
+    background-color: #000;
+    border: none;
+    margin: 100px 0;
+    width: 85%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* adjust space above/below */
+}
+
+.footer-line-bottom {
+    height: 2px;
+    background-color: #000;
+    border: none;
+    margin: 40px 0;
+    width: 85%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer-left p {
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+.footer-right {
+    margin-left: 600px;
+    margin-top: 30px;
+
+}
+
+
+
+
+.all {
+    color: white;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.unsubscribe {
+    color: white;
+    margin-right: 220px;
+    margin-top: 20px;
+}

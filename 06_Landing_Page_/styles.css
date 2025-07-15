@@ -1,0 +1,205 @@
+/* Typed By - Yeasin Arafat  */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background: linear-gradient(to right, #fef9ff, #eef9ff);
+    color: #222;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Header - Glassmorphism */
+header.glass-header {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    background: linear-gradient(to right, #ff00cc, #3333ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #444;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff00cc;
+}
+
+.btn {
+    background: #ff6b6b;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: #ff4c4c;
+    transform: scale(1.05);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #ff00cc, #3333ff);
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: #222;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 44px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #ff00cc, #3333ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 650px;
+    margin: 0 auto 30px auto;
+}
+
+/* Features Section */
+.features {
+    background: linear-gradient(to right, #c2e9fb, #a1c4fd);
+    padding: 70px 20px;
+    text-align: center;
+    color: #222;
+}
+
+.features h3 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #111;
+}
+
+.feature-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    flex: 1 1 260px;
+    max-width: 300px;
+    transition: transform 0.3s ease, background 0.3s ease;
+    border-top: 4px solid #ff6b6b;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+    background: linear-gradient(to right, #fff1eb, #ace0f9);
+}
+
+.box h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ff4c4c;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, #3333ff, #ff00cc);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #ffecd2;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .hero h2 {
+        font-size: 34px;
+    }
+
+    .feature-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,277 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri';
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #000;
+
+}
+
+.main-container {
+    min-width: 400px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#card-container {
+    width: 350px;
+    height: 190px;
+    perspective: 1000px;
+    border-radius: 10px;
+
+}
+
+#card {
+    width: 100%;
+    height: 100%;
+    color: white;
+    transition: 1s;
+    position: relative;
+    border-radius: 10px;
+    perspective: 1000px;
+    font-family: calibri;
+    transform-style: preserve-3d;
+
+}
+
+#front,
+#back {
+
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background: linear-gradient(55deg, #0b0b0bfc 45%, rgb(25 25 25) 40%);
+
+}
+
+#back {
+    transform: rotateY(180deg);
+}
+
+#front::after,
+#front::before,
+#back::after,
+#back::before {
+
+    content: '';
+    width: 100%;
+    height: 350px;
+    position: absolute;
+
+}
+
+#front::before,
+#back::before {
+
+    left: -1%;
+    transform: rotate(90deg);
+    border-radius: 50% 95% 0% 100%;
+    background: rgb(255 255 255 / 3%);
+}
+
+#front::after,
+#back::after {
+
+    height: 100%;
+    right: -50%;
+    top: -50%;
+    border-radius: 100% 0 100% 80%;
+    border: 1px solid rgb(239, 239, 239);
+
+}
+
+.reflection {
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+
+}
+
+
+.reflection::before {
+
+    z-index: 0;
+    top: 50%;
+    content: '';
+    left: -50%;
+    height: 360px;
+    position: absolute;
+    background: #ffffff;
+    transform: translate(-50%, -50%) rotate(50deg);
+    box-shadow: 0px 0px 10px 10px #ffffff;
+
+}
+
+.type {
+
+    top: 10%;
+    margin-left: 15px;
+    font-weight: bold;
+    color: transparent;
+    background: linear-gradient(62deg, #ffffff 0%, #000000 100%);
+    position: relative;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+
+
+.title-text {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.details {
+    position: relative;
+    top: 35%;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+#hidden-number {
+    margin-bottom: 10px;
+}
+
+#show-btn,
+#hide-btn {
+
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-family: calibri;
+    background: rgb(28, 28, 107);
+
+}
+
+.logo {
+
+    position: absolute;
+    font-size: 10px;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    bottom: 3%;
+    right: 0%;
+
+}
+
+.logo::before,
+.logo::after {
+
+    content: '';
+    position: absolute;
+    width: 50%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.logo::before {
+    background: rgba(255, 0, 0, 0.525);
+    left: 10%;
+}
+
+.logo::after {
+    background: rgba(255, 213, 0, 0.584);
+    right: 10%;
+
+}
+
+.flipped {
+    transform: rotateY(-180deg);
+}
+
+#chip {
+
+    top: 10%;
+    position: absolute;
+    width: 15%;
+    height: 18%;
+    border-radius: 5px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#chip span {
+    position: absolute;
+    background: #e0ab89;
+    border: 1px solid black;
+}
+
+#chip span:nth-child(1) {
+
+    height: 100%;
+    width: 40%;
+    border-top: none;
+    border-bottom: none;
+
+}
+
+
+#chip span:nth-child(2) {
+
+    height: 60%;
+    width: 40%;
+    left: 0;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+
+}
+
+#chip span:nth-child(3) {
+
+    height: 60%;
+    width: 40%;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    right: 0;
+}
+
+
+#chip span:nth-child(4) {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#chip span:nth-child(5) {
+    aspect-ratio: 1/1;
+    width: 25%;
+    border-radius: 2px;
+
+}
+
+.move {
+
+    transform: translateX(700px);
+}
+
+#valid-date {
+    margin-left: 15px;
+}

@@ -1,0 +1,291 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/*Shared Styles */
+.text-primary {
+    color: #FD6E0A;
+}
+
+.secondary-bg {
+    background-color: #FFF8F3;
+
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+
+
+/* Nav Styles */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
+/*Banner Styles */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content {
+    max-width: 580px;
+
+}
+
+
+
+
+.banner-greetings {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.banner-profile-pic {
+    width: 584px;
+    height: 674px;
+}
+
+/*Main Styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+}
+
+/*About Styles */
+
+
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    border: 2px solid red;
+
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-item p {
+    margin: 0;
+}
+
+.item-description {
+    font-weight: 600;
+
+}
+
+/* Skills Section Center */
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill p {
+    color: red;
+}
+
+.section-description {
+    margin-bottom: 38px;
+    color: black;
+}
+
+.what {
+    margin-bottom: 42px;
+}
+
+/* Resume section styles */
+
+
+
+
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.experience-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.experience-description,
+.experience-sub-title {
+    color: #757575;
+}
+
+/* Download CV */
+
+.resume-download-cv {
+    margin-top: 50px;
+}
+
+/*Footer styles */
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
+
+}
+
+/* Resposiveness */
+
+@media screen and (max-width: 576px) {
+
+    .skills-container,
+    .resume-container,
+    .banner,
+    footer,
+    nav,
+    nav>ul,
+    .about-items {
+        flex-direction: column;
+    }
+
+    nav>ul {
+        gap: 20px;
+    }
+
+    .banner {
+        margin: 20px;
+    }
+
+    .banner-profile-pic {
+        width: 100%;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    footer,
+    .about {
+        padding: 20px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+
+    footer input[type="text"],
+    footer input[type="email"],
+    footer textarea {
+        width: calc(100% - 40px);
+    }
+
+    .btn-primary {
+        margin-bottom: 20px;
+    }
+
+}
