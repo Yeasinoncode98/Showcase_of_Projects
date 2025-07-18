@@ -1,0 +1,355 @@
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+ .work-sans-font {
+     font-family: "Work Sans", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+ /* Shared styles */
+
+ .display-flex {
+     display: flex;
+ }
+
+ /* dark 02 */
+
+ .dark-02 {
+     color: #424242;
+ }
+
+ /* dark-03 */
+
+ .dark-03 {
+     color: #727272;
+ }
+
+ .bg-light {
+     background-color: rgba(255, 144, 14, 0.1);
+ }
+
+ .btn-primary {
+     background-color: #FF900E;
+     color: white;
+     padding: 20px 25px;
+     font-size: 1.25rem;
+     font-weight: 600;
+     border-radius: 10px;
+     border: none;
+     margin-top: 30px;
+ }
+
+ /* Height for all the body part */
+
+ main {
+     max-width: 1440px;
+     margin: 0 auto;
+ }
+
+ main>section {
+     margin-top: 130px;
+ }
+
+ .section-title {
+     font-size: 2.8rem;
+     font-weight: 700;
+ }
+
+ /* header styles */
+
+ /* Nav related styles here */
+
+ .nav-bar {
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .brand {
+     font-weight: 700;
+     font-size: 3rem;
+ }
+
+
+ .nav-item {
+     list-style: none;
+     margin-right: 30px;
+ }
+
+ .nav-link {
+     text-decoration: none;
+     font-weight: 500;
+ }
+
+ .nav-bar,
+ .banner {
+     max-width: 1440px;
+     margin: 0 auto;
+ }
+
+ /* Banner related styles */
+
+ .banner-content {
+     max-width: 850px;
+     margin: 0 auto;
+     text-align: center;
+     margin-bottom: 50px;
+ }
+
+ .banner-title {
+     font-size: 4em;
+     font-weight: 700;
+ }
+
+ .banner-img {
+     width: 100%;
+ }
+
+
+ /* Teams and features related styles */
+
+ .teams {
+     align-items: center;
+ }
+
+ .team-img-container {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 24px;
+ }
+
+ .our-features {
+     margin-left: 130px;
+     max-width: 530px;
+ }
+
+ #quick-list {
+     font-weight: 500;
+ }
+
+ /* .feature-description {
+     color: #727272;
+ } */
+
+
+
+
+
+
+
+ /*Feature section start and introduction */
+
+ #feature-section-title {
+     border-left: 5px solid #FF900E;
+     padding-left: 20px;
+ }
+
+ .feature-card {
+     padding: 30px;
+     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+     margin-bottom: 20px;
+     border-radius: 8px;
+ }
+
+ .feature-card .feature-title {
+     font-weight: 600;
+     font-size: 1.25rem;
+     margin-top: 0;
+     margin-bottom: 0;
+ }
+
+ #experience-badge {
+     padding: 45px 42px;
+     font-size: 1.5rem;
+     font-weight: 500;
+     margin-left: -100px;
+     margin-top: -150px;
+ }
+
+ #experience-year {
+     font-size: 4rem;
+     font-weight: 700;
+ }
+
+ .featured-architect img {
+     width: 100%;
+ }
+
+ .features {
+     gap: 140px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Some Facts section */
+
+ .facts-container {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+
+ }
+
+ .fact-card {
+     border: 1px solid #FF900E;
+     border-radius: 8px;
+     width: 240px;
+     height: 240px;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+
+ }
+
+ .fact-description {
+     max-width: 540px;
+ }
+
+
+ .fact-number {
+     font-size: 2.8rem;
+     font-weight: 600;
+     margin-top: 5px;
+     margin-bottom: 10px;
+ }
+
+ .fact-name {
+     font-size: 1.25rem;
+     font-weight: 600;
+     margin-top: 10px;
+ }
+
+ /* Sponsor Styles */
+
+ .sponsor-info {
+     max-width: 540px;
+     margin: 50px auto;
+     text-align: center;
+ }
+
+ .sponsor-companies {
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+ }
+
+
+ .sponsor-companies {
+     margin-top: 100px;
+ }
+
+ /* Footer part */
+
+ .footer {
+     height: 100px;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     margin-top: 150px;
+     border-radius: 8px;
+ }
+
+ .footer h3 {
+     padding: 50px;
+
+ }
+
+
+
+
+ /* Hover efect for btn primary */
+
+
+ .btn-primary:hover {
+     background-color: green;
+ }
+
+
+ /* Responsive media query for Small Devices */
+
+ @media screen and (max-width: 576px) {
+
+     .nav-bar,
+     .nav-link,
+     .features,
+     .teams {
+         flex-direction: column;
+     }
+
+     .team-img-container,
+     .facts-container,
+     .sponsor-companies {
+         grid-template-columns: 1fr;
+     }
+
+     .facts-container {
+         justify-items: center;
+         gap: 24px;
+     }
+
+     .sponsor-companies {
+         justify-items: center;
+         gap: 50px;
+     }
+
+     .our-features {
+         margin-left: 20px;
+     }
+
+     #experience-badge {
+         margin-top: 20px;
+         margin-left: 35px;
+     }
+
+     .facts-container {
+         margin-top: 40px;
+     }
+
+     .banner img {
+         width: 100%;
+     }
+
+     .our-features .btn-primary {
+         margin-left: 80px;
+     }
+
+     .section-title {
+         color: red;
+     }
+
+
+     .nav-links {
+         flex-direction: column;
+         gap: 30px;
+     }
+
+
+     .featured-architect img {
+         width: 100%;
+     }
+
+
+     #facts {
+         text-align: center;
+     }
+
+     .footer h3 {
+         text-align: center;
+         justify-content: center;
+         align-items: center;
+         margin-top: 0;
+         margin-bottom: 0;
+     }
+
+
+ }
