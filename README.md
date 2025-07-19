@@ -40,6 +40,9 @@ Welcome to my **Projects Showcase Repo** — a curated collection of interactive
 | 16 | 🎉 **New Year Work**         | A festive and modern New Year-themed project| [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/16_NewYear_Work/) |
 | 17 | 🚀 **LaunchingPad Web**      | A clean and professional product launch layout | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/17_LaunchingPad_web/) |
 | 18  | 🐼 **Panda OnlineShop Test Website** | E-commerce test website for Panda OnlineShop | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/18_Panda_OnlineShop_Test_Website/) |
+| 19  | 🌸 **Flower Shop Website**   | A beautiful flower shop-themed website with elegant UI | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/19_Flower_Shop_Website/) |
+| 20  | 🏗️ **G3 Architect Website** | Professional website for architectural services with responsive layout | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/20_G3_Architect_Online_Website_/) |
+| 21  | 🛍️ **Influence Gear Shop** | Trendy and responsive e-commerce shop layout for gear and accessories | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/21_Influence_Gear_Shop_WebSite_/) |
 
 
 
