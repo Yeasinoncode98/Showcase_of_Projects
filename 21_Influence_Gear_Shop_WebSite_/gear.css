@@ -1,0 +1,423 @@
+/* shared styles */
+
+
+.text-font {
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.nav-color {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.prd-name-color {
+    color: #18191F;
+}
+
+.prd-descri-color {
+    color: rgba(120, 120, 133, 1);
+}
+
+.section-title {
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+
+
+/* Nav related styles  */
+
+.nav-bar {
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.brand {
+    color: #3A3A3A;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+
+.nav-item {
+    list-style: none;
+    margin-right: 34px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-bar {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* Banner related styles */
+
+.banner-content {
+    max-width: 580px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 180px;
+}
+
+.banner-title {
+    font-size: 3.25rem;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+
+.circle {
+    margin-right: 400px;
+}
+
+.camera {
+    margin-top: -450px;
+    margin-right: 30px;
+}
+
+.camera-circle {
+    margin-top: 70px;
+}
+
+.btn-first {
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 90px;
+    border: none;
+    margin-top: 30px;
+
+}
+
+.circle img {
+    max-width: 100%;
+}
+
+.camera img {
+    max-width: 100%;
+}
+
+/* Company details  */
+
+.our-partners {
+    /* padding: 40px 10px; */
+    text-align: center;
+    background-color: #ffffff;
+
+
+
+}
+
+.sponsor-companies {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 150px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    width: 1300px;
+    height: 110px;
+    padding: 25px;
+
+}
+
+
+/* products card section */
+
+.product-text {
+    color: #3A3A3A;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 28px;
+    margin-right: 130px;
+}
+
+
+
+.products-container {
+    padding: 50px 20px;
+    text-align: center;
+
+}
+
+.product-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+
+}
+
+.product-card {
+    border: 1px solid #eee;
+    padding: 15px;
+    text-align: left;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.product-card img {
+    width: 100%;
+
+}
+
+.product-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.p {
+    color: #3A3A3A;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.see-more {
+    text-align: right;
+    margin-top: 25px;
+    max-width: 1440px;
+    margin-right: 120px;
+}
+
+.see-more-btn {
+    color: #E02C6D;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/* Featured products */
+
+.featured-container {
+    display: flex;
+    gap: 100px;
+
+
+}
+
+.title {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.content {
+    color: #6C6C6C;
+}
+
+.btn-primary {
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    /* border-radius: 90px; */
+    border: none;
+    margin-top: 5px;
+}
+
+/* Footer section */
+
+.footer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-left: 5px;
+
+
+
+}
+
+.footer-text {
+    margin-top: 50px;
+}
+
+.footer-text h3 {
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+.logo a {
+    color: white;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+/* ========== Responsive Design ========== */
+
+
+@media screen and (max-width: 768px) {
+
+    /* Navbar */
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .nav-item {
+        margin: 0;
+    }
+
+    /* Banner */
+    .banner {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .banner-content {
+        margin-top: 30px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    .banner-description {
+        font-size: 14px;
+    }
+
+    .camera-circle {
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .circle {
+        margin: 0 auto;
+
+    }
+
+    .camera {
+        margin: -340px auto 0;
+        margin-right: 15px;
+
+    }
+
+    /* Sponsors */
+    .sponsor-companies {
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        height: auto;
+        gap: 20px;
+        margin-top: 60px;
+        padding: 20px;
+    }
+
+    /* Products */
+    .product-text {
+        font-size: 22px;
+        margin-right: 0;
+    }
+
+    .product-card-container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .product-card {
+        width: 90%;
+    }
+
+    .see-more {
+        text-align: right;
+        margin-right: 0;
+    }
+
+    .see-more-btn {
+        font-size: 16px;
+    }
+
+    /* Featured */
+    .featured-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .featured-card img {
+        width: 100%;
+        margin-left: 6px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .content {
+        font-size: 14px;
+    }
+
+    .btn-primary {
+        font-size: 0.9rem;
+        padding: 10px 25px;
+    }
+
+    /* Footer */
+
+    .footer {
+        margin-left: 10px;
+    }
+
+
+    .footer h3,
+    .footer p {
+        font-size: 14px;
+    }
+
+    .logo a {
+        font-size: 18px;
+
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+
+}
+
+/* ------------------------------------------------------ */
