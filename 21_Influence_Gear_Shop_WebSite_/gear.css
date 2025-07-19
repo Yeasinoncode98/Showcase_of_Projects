@@ -46,6 +46,7 @@ main {
     color: #3A3A3A;
     font-size: 1.5rem;
     font-weight: 700;
+    margin-left: 40px;
 
 }
 
@@ -72,7 +73,7 @@ main {
     max-width: 580px;
     margin: 0 auto;
     text-align: left;
-    margin-top: 180px;
+    margin-top: 130px;
 }
 
 .banner-title {
@@ -82,17 +83,33 @@ main {
 }
 
 
-.circle {
-    margin-right: 400px;
+
+
+.camera-circle-fixed {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    /* aspect-ratio: 1 / 1; */
+    /* keeps it square */
+    margin-top: 30px;
 }
 
-.camera {
-    margin-top: -450px;
-    margin-right: 30px;
+.circle-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
-.camera-circle {
-    margin-top: 70px;
+.camera-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 75%;
+    /* adjust size of camera */
+    max-width: 350px;
+    transform: translate(-50%, -50%);
 }
 
 .btn-first {
@@ -107,13 +124,6 @@ main {
 
 }
 
-.circle img {
-    max-width: 100%;
-}
-
-.camera img {
-    max-width: 100%;
-}
 
 /* Company details  */
 
@@ -213,7 +223,6 @@ main {
     display: flex;
     gap: 100px;
 
-
 }
 
 .title {
@@ -262,16 +271,13 @@ main {
 
 .logo {
     margin-top: 20px;
-    margin-left: 30px;
-
 }
 
 .logo a {
     color: white;
-    margin-right: 30px;
+    gap: 50px;
+    margin-right: 20px;
 }
-
-
 
 
 
@@ -314,6 +320,10 @@ main {
 
     .banner-title {
         font-size: 2rem;
+    }
+
+    .brand {
+        margin-right: 25px;
     }
 
     .banner-description {
@@ -363,7 +373,8 @@ main {
 
     .see-more {
         text-align: right;
-        margin-right: 0;
+        /* margin-right: 0; */
+
     }
 
     .see-more-btn {
