@@ -88,6 +88,8 @@ Feel free to take **ideas and inspiration** from these projects to build your ow
 > — *Yeasin Arafat*  
 
 ---
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0e1538&height=100&section=footer"/>
