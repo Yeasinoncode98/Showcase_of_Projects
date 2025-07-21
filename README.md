@@ -1,5 +1,8 @@
 # 🚀 Yeasin Arafat's **Projects Showcase**
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00D8FF&width=600&lines=Welcome+to+Projects+Playground;Crafted+with+❤️+by+Yeasin+Arafat" alt="Typing SVG" />
 </p>
@@ -88,7 +91,7 @@ Feel free to take **ideas and inspiration** from these projects to build your ow
 > — *Yeasin Arafat*  
 
 ---
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 
 <p align="center">
