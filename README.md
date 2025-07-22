@@ -47,7 +47,8 @@ Welcome to my **Projects Showcase Repo** — a curated collection of interactive
 | 20  | 🏗️ **G3 Architect Website** | Professional website for architectural services with responsive layout | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/20_G3_Architect_Online_Website_/) |
 | 21  | 🛍️ **Influence Gear Shop** | Trendy and responsive e-commerce gear shop website | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/21_Influence_Gear_Shop_WebSite_/) |
 | 22 | ⚽ **FIFA World Cup Live Matches** | Live match updates and scores for FIFA World Cup | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/22_FiFa_WorldCup_Matches_Live_Wesbite/) |
-| 23 | ⚖️ **Legal Solutions Website** | Modern legal service and consultancy website design | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/23_Legal_Solutions_Website/) |
+| 23 | ⚖️ **Legal Solutions Website** | Modern legal service and consultancy website design | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/23_Legal%20Solutions_Website_/) |
+
 
 
 
