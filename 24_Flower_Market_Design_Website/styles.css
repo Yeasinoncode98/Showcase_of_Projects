@@ -1,0 +1,813 @@
+/* Shared Styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: white;
+}
+
+
+
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.p-text {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+
+
+/* Header part styles */
+
+.nav-bar {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+
+
+}
+
+
+
+
+.nav-item {
+    list-style: none;
+    margin-right: 40px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-item a {
+    color: black;
+}
+
+.nav-item i {
+    margin-right: 5px;
+}
+
+
+/* Special color in Nav-Section for shop and about-us*/
+
+#shop,
+#about-us {
+    color: #8987A1;
+
+
+}
+
+
+.nav-text {
+    font-family: "Inter", sans-serif;
+    /* color: red; */
+
+}
+
+/* Background BAnner section */
+
+.background-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 60px 50px; */
+    /* background-color: #fff; */
+    margin-top: 120px;
+}
+
+.banner-details {
+    margin-top: 70px;
+    max-width: 570px;
+}
+
+.banner-details h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+}
+
+.fresh,
+.flowers {
+    color: #E95A08;
+}
+
+.banner-details p {
+    margin-top: 13px;
+    max-width: 570px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.big-flower {
+    max-width: 100%;
+}
+
+.big-flower img {
+    max-width: 100%;
+    margin-right: 35px;
+}
+
+.flower-text {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flower-text h2 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+}
+
+.flower-text p {
+    margin-top: 20px;
+
+}
+
+/* Mobile responsiveness for this header section */
+
+
+@media (max-width: 576px) {
+
+
+    .nav-bar {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px 20px;
+        /* align-items: flex-start; */
+        padding: 20px;
+
+    }
+
+    .nav-links .nav-item {
+        display: none;
+
+
+    }
+
+
+
+
+    .nav-links .cart {
+        display: block !important;
+        margin-top: 30px;
+        margin-right: -4px;
+        font-size: 25px;
+    }
+
+    .nav-link {
+        color: black;
+    }
+
+
+    .background-section-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+
+
+    .banner-details h1 {
+        font-size: 35px;
+    }
+
+    .banner-details {
+        text-align: left;
+
+    }
+
+    .big-flower {
+        width: 380px;
+        margin-right: -35px;
+        /* margin-left: 80px; */
+        /* padding-left: 10px; */
+        overflow-x: hidden;
+
+    }
+
+    .big-flower img {
+        width: 100%;
+
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+    /* FLower Text Section */
+
+    .flower-text {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .flower-text h2 {
+        font-size: 50px;
+        font-weight: bold;
+        font-family: "Noto Serif", serif;
+        margin-top: -100px;
+    }
+
+    .flower-text p {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+}
+
+/* Flower card section */
+
+.flower-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    /* padding: 20px; */
+    margin-top: 40px;
+
+}
+
+.flower-card {
+    background-color: white;
+    text-align: center;
+    margin-left: -30px;
+}
+
+.flower-card img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    margin-bottom: 10px;
+}
+
+.name {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: black;
+    line-height: 150%;
+}
+
+.price {
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #111111;
+    line-height: 150%;
+}
+
+.btn {
+
+    padding: 10px 75px;
+    margin-top: 20px;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    background-color: purple;
+}
+
+/* Responsible part for Card section */
+
+@media (max-width: 576px) {
+
+    .flower-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 40px;
+        margin-left: 30px;
+
+
+    }
+
+    .btn {
+        padding: 10px 50px;
+    }
+
+    .p-text {
+        text-align: center;
+        width: 370px;
+        margin-left: 10px;
+    }
+
+
+}
+
+
+/* Flower and plant details */
+
+.flower-plant-container {
+    margin-top: 150px;
+
+}
+
+
+
+.man-pic img {
+    width: 450px;
+
+}
+
+.trusted {
+    margin-left: -150px;
+    margin-top: -120px;
+
+}
+
+
+
+
+.trusted img {
+    max-width: 280px;
+}
+
+.flower-plant-details {
+    margin-top: 50px;
+    margin-left: -20px;
+}
+
+
+.flower-plant-details h2 {
+    font-size: 40px;
+    font-family: "Noto Serif", serif;
+}
+
+.flower-plant-details ul li {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Responsive part for Flower and plant section */
+
+@media (max-width: 576px) {
+
+    .flower-plant-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: -20px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .trusted {
+        display: none;
+    }
+
+    .man-pic {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        padding: 0 10px;
+    }
+
+    .man-pic img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        /* padding: 10px; */
+        margin: 0;
+        display: block;
+        /* justify-content: center;
+        align-items: center;
+        margin-left: 15px;
+        overflow-x: hidden; */
+    }
+
+    .flower-plant-details {
+        padding: 47px;
+        max-width: 400px;
+        margin-top: -20px;
+    }
+
+    .flower-plant-details h2 {
+        width: 500px;
+        margin-left: -10px;
+    }
+
+
+}
+
+
+
+/* Latest deals text section */
+
+.latest-deals {
+    text-align: center;
+    margin-top: 70px;
+    /* margin-top: -20px; */
+}
+
+.latest-text {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+
+.latest-card-text {
+    color: #E95A08;
+
+
+}
+
+.latest-deals h2 {
+    font-size: 50px;
+    font-family: "Noto Serif", serif;
+}
+
+
+
+
+
+
+
+
+/* Ana Zabo Bollom plant section pic and part */
+
+
+
+.plant-offers {
+    display: flex;
+    gap: 40px;
+    padding: 30px;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.offer-box,
+.right-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    color: white;
+    /* overflow: hidden; */
+}
+
+/* Picture dark little bit */
+
+.offer-box::before,
+.right-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    border-radius: 15px;
+    z-index: 1;
+}
+
+
+.offer-box {
+    width: 390px;
+    height: 190px;
+
+}
+
+.right-box {
+    flex: 1;
+    height: 406px;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+}
+
+.overlay h3,
+.overlay h2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+.overlay a {
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    /* text-decoration: none; */
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+
+/* Mobile responsible for Plant offers section */
+
+@media (max-width: 576px) {
+    .plant-offers {
+        flex-direction: column;
+        gap: 20px;
+        padding: 15px;
+
+    }
+
+    .left-column {
+        width: 100%;
+    }
+
+    .offer-box {
+        width: 100%;
+        height: 190px;
+    }
+
+    .right-box {
+        width: 100%;
+        /* full width */
+        height: 190px;
+        flex: none;
+    }
+}
+
+
+
+/* Join the colorful bunch */
+
+.colorful-bunch-section {
+    position: relative;
+    background-image: url('./assets/news-letter-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+
+.colorful-bunch-section h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.search-container input[type="text"] {
+    width: 620px;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    /* outline: none; */
+
+}
+
+.search-container button {
+    background-color: #E95A08;
+    color: white;
+    width: 186px;
+    padding: 18px;
+    /* border-radius: 10px; */
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: px;
+    margin-left: -10px;
+
+
+}
+
+/* Hover effect for button */
+
+.search-container button:hover {
+    background-color: skyblue;
+
+}
+
+
+
+/* Mobile responsible part for newsletter part */
+
+@media (max-width: 576px) {
+
+
+    /* html,
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    } */
+
+    .search-container input {
+        max-width: 250px;
+        width: 100%;
+        /* border-radius: 10px; */
+        margin-left: 80px;
+    }
+
+    .search-container button {
+        max-width: 100px;
+        /* border-radius: 10px; */
+    }
+
+    .colorful-bunch-section h1 {
+
+        width: 900px;
+        font-size: 30px;
+        /* margin-right: 90px; */
+
+    }
+
+    .colorful-bunch-section {
+        /* width: 450px; */
+        width: 100%;
+        margin-left: 1px;
+    }
+
+    .colorful-bunch-section img {
+        max-width: 500px;
+    }
+
+    .search-container {
+        margin-right: 80px;
+    }
+
+}
+
+/* Footer section */
+
+.footer-all {
+    background-color: rgba(255, 255, 255, 0.5);
+    gap: 150px;
+    padding: 50px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 348px;
+
+}
+
+.logo-part {
+    margin-top: -50px;
+    max-width: 350px;
+}
+
+.logo-text {
+    margin-top: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.footer-item {
+    margin-bottom: 30px;
+}
+
+.footer-item a {
+    text-decoration: none;
+    color: rgba(107, 114, 128, 1);
+    font-size: 15px;
+
+
+}
+
+.footer-link li {
+    font-size: 15px;
+    color: rgba(107, 114, 128, 1);
+    list-style: none;
+    margin-top: 20px;
+}
+
+.social-icons {
+    margin-top: -210px;
+    display: flex;
+    gap: 40px;
+
+}
+
+
+/* Footer Part Mobile responsible */
+
+@media (max-width: 576px) {
+    .footer-all {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+
+    .logo-part {
+        margin-top: 20px;
+
+    }
+
+    .footer-item a {
+        margin-left: -150px;
+
+    }
+
+    .footer-link li {
+        color: rgba(107, 114, 128, 1);
+        margin-left: -150px;
+
+    }
+
+    .footer-link {
+        margin-top: -50px;
+    }
+
+    .social-icons {
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0;
+        gap: 15px;
+        margin-right: 90px;
+        gap: 20px;
+
+    }
+
+
+}
+
+@media (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .footer-all {
+        width: 100%;
+        display: flex;
+
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        /* overflow: hidden; */
+    }
+
+
+
+
+}
+
+
+
+.display {
+    display: none;
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+/* Single section and single section responsive done */

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faugi Flower Shop</title>
+
+    <!-- Google Font NOTO-SERIF -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- INTER FONT Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Ag Font for nav Bars
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet"> -->
+
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-bar display-flex container">
+            <div class="logo">
+                <img src="./assets/logo.png" alt="">
+            </div>
+            <ul class="nav-links display-flex">
+                <li class="nav-item"><a href="" class="nav-link nav-text">Home</a></li>
+                <li class="nav-item "><a href="" id="shop" class="nav-link nav-text">Shop</a></li>
+                <li class="nav-item"><a href="" id="about-us" class="nav-link nav-text">About US</a></li>
+                <li class="nav-item cart"><a href="" class="nav-link nav-text"><i
+                            class="fa-solid fa-cart-shopping"></i>Cart($56)</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <div class="background-section-container container ">
+            <div class="banner-details">
+                <h1>ALWAYS <span class="fresh">FRESH</span> <br> <span class="flowers">FLOWERS</span> </h1>
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
+                    exotic
+                    blooms, we
+                    offer a wide variety of fresh flowers that <br> are perfect for any occasion.</p>
+
+            </div>
+
+
+            <div class="big-flower">
+                <img src="./assets/hero-flower.png" alt="">
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!--  Our plants Text section-->
+
+    <section class="flower-text container">
+        <h2><span>Our</span> Plants
+        </h2>
+        <p class="p-text">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic
+            roses to exotic
+            blooms, we
+            offer a wide variety of fresh.</p>
+    </section>
+
+
+    <!-- Section for flower price card -->
+
+    <section class="flower-container container">
+
+        <div class="flower-card">
+            <img src="./assets/sample-flower-image.png" alt="">
+            <p class="name">Lily Blossom</p>
+            <p class="price">20 USD</p>
+            <button class="btn" onclick="addToCart()">ADD TO CART</button>
+        </div>
+        <div class="flower-card">
+            <img src="./assets/sample-flower-image.png" alt="">
+            <p class="name">Lily Blossom</p>
+            <p class="price">20 USD</p>
+            <button class="btn" onclick="addToCart()">ADD TO CART</button>
+        </div>
+        <div class="flower-card">
+            <img src="./assets/sample-flower-image.png" alt="">
+            <p class="name">Lily Blossom</p>
+            <p class="price">20 USD</p>
+            <button class="btn" onclick="addToCart()">ADD TO CART</button>
+        </div>
+        <div class="flower-card">
+            <img src="./assets/sample-flower-image.png" alt="">
+            <p class="name">Lily Blossom</p>
+            <p class="price">20 USD</p>
+            <button class="btn" onclick="addToCart()">ADD TO CART</button>
+        </div>
+        <div class="flower-card">
+            <img src="./assets/sample-flower-image.png" alt="">
+            <p class="name">Lily Blossom</p>
+            <p class="price">20 USD</p>
+            <button class="btn" onclick="addToCart()">ADD TO CART</button>
+        </div>
+        <div class="flower-card">
+            <img src="./assets/sample-flower-image.png" alt="">
+            <p class="name">Lily Blossom</p>
+            <p class="price">20 USD</p>
+            <button class="btn" onclick="addToCart()">ADD TO CART</button>
+        </div>
+        <div class="flower-card">
+            <img src="./assets/sample-flower-image.png" alt="">
+            <p class="name">Lily Blossom</p>
+            <p class="price">20 USD</p>
+            <button class="btn" onclick="addToCart()">ADD TO CART</button>
+        </div>
+        <div class="flower-card">
+            <img src="./assets/sample-flower-image.png" alt="">
+            <p class="name">Lily Blossom</p>
+            <p class="price">20 USD</p>
+            <button class="btn" onclick="addToCart()">ADD TO CART</button>
+        </div>
+        <!-- </div> -->
+
+    </section>
+
+
+    <!-- Section for Details -->
+
+    <section class=" flower-plant-container container display-flex ">
+        <div class="man-pic">
+            <img src="./assets/flower-store.png" alt="">
+        </div>
+
+        <div class="trusted">
+            <img src="./assets/trusted-badge.png" alt="">
+        </div>
+
+        <div class="flower-plant-details">
+            <h2>Flower & Plants <br> Lover</h2>
+            <ul>
+                <li>
+                    <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+                        roses to
+                        exotic blooms, we
+                        offer a wide variety of fresh.</p>
+
+                </li>
+                <li>
+                    <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+                        roses to
+                        exotic blooms, we
+                        offer a wide variety of fresh.</p>
+                </li>
+                <li>
+                    <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+                        roses to
+                        exotic blooms, we
+                        offer a wide variety of fresh.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Latest Deals -->
+
+    <section class="latest-deals container ">
+        <h2><span class="latest-card-text">Latest</span> Deals</h2>
+        <p class="latest-text">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br>
+            classic
+            roses to exotic
+            blooms, we
+            offer a wide variety of fresh.</p>
+    </section>
+
+
+    <!-- plant offers container section -->
+
+
+
+    <div class="plant-offers container">
+        <div class="left-column">
+            <div class="offer-box" style="background-image: url('./assets/deal-bloom.png');">
+                <div class="overlay">
+                    <h3>60% Off | Bloom Plant</h3>
+                    <a href="#">Shop Now</a>
+                </div>
+            </div>
+            <div class="offer-box" style="background-image: url('./assets/deal-ana.png');">
+                <div class="overlay">
+                    <h3>30% Off | Ana Plant</h3>
+                    <a href="#">Shop Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-box" style="background-image: url('./assets/deal-zabo.png');">
+            <div class="overlay">
+                <h2>25% Off | Zabo Plant</h2>
+                <a href="#">Shop Now</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Join the colorful bunch section -->
+
+    <div class="colorful-bunch-section ">
+        <h1>Join the colorful Bunch</h1>
+        <div class="search-container ">
+            <input type="text" placeholder="Your Email">
+            <button class="search">Search</button>
+
+        </div>
+    </div>
+
+
+
+    <!-- Footer section -->
+
+    <footer class="footer-all display-flex container">
+        <div class="logo-part">
+            <img src="./assets/logo.png" alt="">
+            <p class="p-text logo-text">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+        </div>
+
+
+        <div class="usefull-links">
+            <ul class="footer-links">
+                <li class="footer-item"><a href="">Home</a></li>
+                <li class="footer-item"><a href="">About Us</a></li>
+                <li class="footer-item"><a href="">Blog</a></li>
+                <li class="footer-item"><a href="">Faq</a></li>
+                <li class="footer-item"><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="usefull-links">
+            <ul class="footer-link">
+                <li class="footer-item">Features</li>
+                <li class="footer-item">Pricing</li>
+                <li class="footer-item">Privacy policy</li>
+                <li class="footer-item">Terms of Service</li>
+                <li class="footer-item">Help center</li>
+            </ul>
+        </div>
+
+        <div class="social-icons">
+            <img src="./assets/icon-linkedin.png" alt="">
+            <img src="./assets/icon-twitter.png" alt="">
+            <img src="./assets/icon-facebook.png" alt="">
+            <img src="./assets/icon-youtube.png" alt="">
+        </div>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+    <script>
+        function addToCart() {
+            alert("🌸 Flower Added to Cart!");
+        }
+    </script>
+
+
+
+</body>
+
+</html>
