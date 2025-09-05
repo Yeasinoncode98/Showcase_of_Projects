@@ -49,7 +49,7 @@ Welcome to my **Projects Showcase Repo** — a curated collection of interactive
 | 22 | ⚽ **FIFA World Cup Live Matches** | Live match updates and scores for FIFA World Cup | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/22_FiFa_WorldCup_Matches_Live_Wesbite/) |
 | 23 | ⚖️ **Legal Solutions Website** | Modern legal service and consultancy website design | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/23_Legal%20Solutions_Website_/) |
 | 24 | 🌸 **Flower Market Website** | Elegant flower shop design with fresh visuals | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/24_Flower_Market_Design_Website/) |
-| 25 | 🍵 **Tea House Website** | Elegant tea house design with premium quality visuals | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/25_Tea_House_Website_Tail_Wind_Css/) |
+| 25 | 🍵 **Tea House Website** | Elegant tea house design with premium quality visuals | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/25_Tea_House_Website_Tail_Wind_CSS/) |
 | 26 | 📘 **Learn With English – Janala Website** | English learning platform design with interactive UI | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/26_Learn_With%20English_Janala_Website/) |
 
 
