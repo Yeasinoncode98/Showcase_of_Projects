@@ -55,6 +55,7 @@ Welcome to my **Projects Showcase Repo** — a curated collection of interactive
 | 28 | 🌳 **Green Earth Tree Website** | Environmental conservation website with interactive tree planting features | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/28_Green_Earth_Tree_Website/) |
 | 29 | 📱 **Hero Apps** | A platform with huge app collection and downloads, similar to Play Store and App Store, offering seamless service experience | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://b12-a08-hero-app.netlify.app/) |
 | 30 | 🎫 **Customer Ticket System** | A platform for managing customer tickets efficiently, with seamless support and tracking experience | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://b12a07-cs-user-tickets-system.netlify.app/) |
+| 31 | 🌿 **Green Nest – Bring Green Home** | A platform promoting greenery at home with interactive features and sustainable plant solutions | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://calm-halva-e2b0a7.netlify.app/) |
 
 
 
