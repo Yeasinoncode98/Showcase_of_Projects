@@ -53,6 +53,7 @@ Welcome to my **Projects Showcase Repo** — a curated collection of interactive
 | 26 | 📘 **Learn With English – Janala Website** | English learning platform design with interactive UI | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/26_Learn_With%20English_Janala_Website/) |
 | 27 | 📺 **BBC Bangla Website** | News website design with responsive and interactive UI | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/27_BBC_BANGLA_WEBSITE/) |
 | 28 | 🌳 **Green Earth Tree Website** | Environmental conservation website with interactive tree planting features | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://yeasinoncode98.github.io/Showcase_of_Projects/28_Green_Earth_Tree_Website/) |
+| 29 | 📱 **Hero Apps** | A platform with huge app collection and downloads, similar to Play Store and App Store, offering seamless service experience | [![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://b12-a08-hero-app.netlify.app/) |
 
 
 
